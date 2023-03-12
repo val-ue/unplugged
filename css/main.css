@@ -111,6 +111,7 @@ a {
  
 h2 {
   font-family: 'Poppins', sans-serif;
+  font-weight: 500;
   font-size: 1.875em;
 }
  
@@ -118,6 +119,7 @@ h3,
 h4 {
   font-family: 'Poppins', sans-serif;
   margin: 20px 0;
+  font-weight: 500;
   font-size: 1.125em;
 }
  
@@ -133,6 +135,14 @@ address {
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
+}
+
+img { 
+  width: 100%;
+}
+ 
+figure {
+  margin: 0;
 }
 
 /* ----- Base Header - Footer Styles ------*/
@@ -158,6 +168,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header nav {
@@ -230,6 +248,9 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row-wrap;
+  min-height: 500px;
+  background: url(../img/unplugged-retreat.jpg) center no-repeat #333;
+  background-size: cover;
 }
 
 .hero-area h1 {
@@ -281,6 +302,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url(../img/unplugged-retreat-features.jpg) center no-repeat #333;
+  background-size: cover;
 }
 
 .features h2 {
@@ -567,6 +590,11 @@ aside .content-wrapper .form {
 .reviews article {
   display: flex;
   justify-content: space-between;
+}
+
+.reviews article figure,
+.reviews article div {
+  width: 49%;
 }
 
 .reviews h2 {
