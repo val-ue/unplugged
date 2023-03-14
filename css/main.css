@@ -568,11 +568,12 @@ header figure {
 
  
 header nav {
-  width: 20%;
+  width: 26%;
+  margin: 0;
 }
  
 header nav ul {
-  justify-content: space-between;
+  justify-content: space-around;
 }
  
 .header-divider {
@@ -738,7 +739,6 @@ faq-content {
   line-height: 1.125;
 }
 
-}
  
 @media only screen and (min-width: 1200px) {
 
@@ -770,9 +770,9 @@ p {
 
 /* Hero Area */
 
-hero-area h1 {
+.hero-area h1 {
   font-size: 3.75em;
-  width: 60%;
+  width: 70%;
 }
 
 /* Aside */
