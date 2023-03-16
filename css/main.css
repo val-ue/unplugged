@@ -194,6 +194,7 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+  margin: 0;
 }
 
 header nav ul li {
@@ -256,8 +257,8 @@ footer .copyright {
 .hero-area {
   display: flex;
   justify-content: center;
-  flex-flow: row-wrap;
-  min-height: 500px;
+  flex-flow: row wrap;
+  min-height: 550px;
   background: url(../img/unplugged-retreat.jpg) center no-repeat #333;
   background-size: cover;
 }
@@ -360,7 +361,6 @@ input[type=button] {
   margin: 20px 0;
 }
 
-
 /* ================= 
    About Page 
    ================= */
@@ -373,12 +373,20 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.mission h2 {
+  margin-top: 0px;
+}
+
 .contact-section {
   background-color: #2a423a;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.contact-section h2 {
+  margin-top: 0;
 }
 
 .contact-content p {
@@ -422,7 +430,7 @@ input[type=button] {
 }
 
 .faq h2 {
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   line-height: 1;
 }
 
@@ -549,7 +557,6 @@ h3 {
   line-height: 1.25;
 }
 
-
 /* Header */
  
 header {
@@ -566,7 +573,6 @@ header figure {
   width: 30%;
 }
 
- 
 header nav {
   width: 26%;
   margin: 0;
@@ -678,7 +684,6 @@ footer .copyright {
   width: 100%;
 }
 
-
 /* ================= 
    About Page 
    ================= */
@@ -687,7 +692,6 @@ footer .copyright {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
 }
  
 .mission-content p {
@@ -712,7 +716,6 @@ footer .copyright {
   padding-bottom: 45.5%; 
 }
  
-
 /* ================= 
    FAQ Page 
    ================= */
@@ -738,7 +741,6 @@ faq-content {
   font-size: .875em;
   line-height: 1.125;
 }
-
  
 @media only screen and (min-width: 1200px) {
 
@@ -921,5 +923,3 @@ footer h4 {
   h3 {
     page-break-after: avoid;
   }
-}
-
