@@ -195,6 +195,7 @@ header nav ul {
   justify-content: space-around;
   width: 100%;
   margin: 0;
+  padding: 0;
 }
 
 header nav ul li {
@@ -258,7 +259,7 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  min-height: 550px;
+  min-height: 640px;
   background: url(../img/unplugged-retreat.jpg) center no-repeat #333;
   background-size: cover;
 }
@@ -352,7 +353,7 @@ input[type=button] {
 }
 
 .reviews h2 {
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
   line-height: 1;
 }
 
