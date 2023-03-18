@@ -613,6 +613,10 @@ aside .content-wrapper .form {
   width: 40%;        
   margin: 0;
 }
+
+aside h3 {
+  margin-top: 20px;
+}
  
 /* Features */
  
